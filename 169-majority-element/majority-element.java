@@ -10,10 +10,10 @@ class Solution {
             hm.put(nums[i],hm.get(nums[i]) + 1);
         }
       }
-    System.out.println(hm);
+    
         for(int i = 0; i < nums.length; i++){
             if(hm.get(nums[i]) > n ){
-                System.out.println(nums[i]);
+               
                 return nums[i];
             }
         }
